@@ -1,0 +1,9 @@
+Map<Key, String> map = new HashMap<>();
+while (true) {
+    for (int i = 0; i < max; i++) {
+        Key key = new Key(i);
+        if (!map.containsKey(key)) {
+            map.put(key, "Number:" + i);
+        }
+    }
+}
